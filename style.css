@@ -158,6 +158,9 @@ h1	{
 	z-index: 0;
 	top:1000px;
 	right: -50px;
+	opacity: 0;
+	transform: translate(50px);
+	transition: all 0.3s ease-in-out;
 }
 
 .img2	{
@@ -166,16 +169,17 @@ h1	{
 	z-index: 0;
 	top:1750px;
 	left: -50px;
+	opacity: 1;
 }
 
 
 .text_box	{
 	display: inline-block;
 	background: rgba(28,31,45,.85);
-	
 	width: 500px;
 	position: absolute;
 	z-index: 4;
+	
 	
 }
 
@@ -183,12 +187,16 @@ h1	{
 .intro	{
 	top:650px;
 	left: 50px;
+	opacity: 0;
+	transform: translate(-40px);
+	transition: all 0.3s ease-in-out;
 }
 
 
 .bird	{
 	top:1550px;
 	right: 50px;
+	opacity: 1;
 }
 
 
@@ -238,4 +246,16 @@ blockquote	{
 	top: 2400px;
 	line-height: 1.75em;
 	left: 50px;
+}
+
+
+.is-showing	{
+	opacity: 1;
+	transform: translateX(0px);
+}
+
+
+.is-showing	{
+	opacity: 1;
+	transform: translateX(0px);
 }

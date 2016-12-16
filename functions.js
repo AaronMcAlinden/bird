@@ -27,11 +27,14 @@ $(window).scroll(function(){
 	});
 	
 	
-	
-	
-	
-
-	
+	if(wScroll > $('.content').offset().top)	{
+		
+		$('.intro, .img1').each(function(){
+			
+			$('.intro, .img1').addClass('is-showing');
+			
+		});
+	}
 	
 	
 	
