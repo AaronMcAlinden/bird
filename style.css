@@ -12,7 +12,6 @@ header	{
 	width: 100%;
 	background: url(images/background.jpg);
 	background-size: cover;
-	background-position: center;
 	position: relative;
 	overflow: hidden;
 	font-family: "fira sans" ;
