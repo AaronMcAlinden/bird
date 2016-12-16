@@ -56,8 +56,8 @@ nav a:hover li	{
 
 .back_tree{
 	
-	
-	height: 110%;
+	top:-30px;
+	height: 150%;
 	width: 110%;
 	background: url(images/trees4.png) no-repeat;
 	position: absolute;
@@ -83,12 +83,12 @@ nav a:hover li	{
 .trees	{
 	
 	
-	height: 100%;
+	height: 130%;
 	width: 100%;
 	background: url(images/trees3.png) no-repeat;
 	position: absolute;
 	left: 0%;
-	top: 12%;
+	top: 290px;
 	z-index: 3;
 	
 	

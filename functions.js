@@ -4,12 +4,12 @@ $(window).scroll(function(){
 	
 	
 	$('.back_tree').css({
-		'transform'	:	'translate(0px, '+ wScroll /15 +'%)'
+		'transform'	:	'translate(0px, '+ wScroll /25 +'%)'
 	});
 	
 
 	$('.nat_geo').css({
-		'transform'	:	'translate(0px, '+ wScroll /20 +'%)'
+		'transform'	:	'translate(0px, '+ wScroll /17 +'%)'
 	});
 	
 	$('.trees').css({
